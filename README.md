@@ -13,7 +13,7 @@ El contrato está diseñado para ejecutarse en la red principal (mainnet) de Sui
 - **Multiplicación**: Calcula `a * b`.
 - Emite eventos `Result` con el valor y la operación realizada (por ejemplo, `"sum"`, `"minus"`, etc.).
 
-#EJEMPLOS de casos de uso
+## EJEMPLOS de casos de uso
 
 Los Argumentos en cada función serán 2 números
 
@@ -29,7 +29,9 @@ sui client call --package 0xa0ce0a797f267dc15ecfbaa049e63f1ba1560f95a4e65d00f37c
 *MULTIPLICACIÓN*
 sui client call --package 0xa0ce0a797f267dc15ecfbaa049e63f1ba1560f95a4e65d00f37ccf95d8d4c46a --module calculatorr --function multiply --args 5 3 --gas-budget 10000000
 
-##EJEMPLO DE OUTPUT SUMA* 5+3 = 8
+## EJEMPLO DE OUTPUT SUMA
+
+5+3 = 8
 
 ╭───────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Block Events                                                                              │
